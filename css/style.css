@@ -90,26 +90,63 @@ background-image: url(../img/icon/next.png);
 
 .squareInnerContainer:before,
 .squareInnerContainer:after{
-	content: '   ';
+	content: '';
 	position: absolute;
-	top: 8px;
-	width: 8px;
+	top: 0px;
+	width: 30%;
 	border-bottom: 2px solid #444;
 
 }
 
+.squareInnerContainer:before{
+right: 0px;
+}
+
+.squareInnerContainer:after{
+
+left: 0px;
+}
+
+.squareContent h2{
+  font-size: 70px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #e74c3c;
 
 
+}
 
+.squareContent h3{
+font-size: 24px;
+font-weight: 680;
+margin: 0;  
+}
 
+.all{
+     position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 40%;
+    margin-left: -50px;
+  
+  
+  font-size: 45px;
+}
 
+.contactSection{
+  background-color: #e74c3c;
+  color: #ffff;
+}
 
-
-
-
-
-
-
+.contactButton{
+    color: #ffff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    
+}
 
 
 
