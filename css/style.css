@@ -154,9 +154,11 @@ margin: 0;
   background-color: #e74c3c;
 }
 
-
-
-
+.contactButton:hover {
+text-decoration: none;
+color: #e74c3c;
+background-color: #ffff;
+}
 
 
 
