@@ -42,7 +42,15 @@ $(window).on("load", function() {
 	    }
      	});
 
-       $('.chart').easyPieChart({
+    
+        var skillsTopOffset = $(".skillsSection").offset().top;
+
+        $(window).scroll(function()
+        {
+
+           if(window.pageYOffset > skillsTopOffset- $(window).height() +200){
+
+             $('.chart').easyPieChart({
             easing: 'easeinout',
             barColor: '#fff',
             trackColor: false,
@@ -54,7 +62,9 @@ $(window).on("load", function() {
 
             }
         });
+           }
 
+        })
 		
 	  
 });
