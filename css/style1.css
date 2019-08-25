@@ -21,3 +21,25 @@
 	top: 0;
 	display: block;
 }
+
+.frame{
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    -webkit-transform:scale(1);-moz-transform-scale(1);
+
+}
+
+.repeater{
+	margin-bottom: 12px;
+	margin-left: 150px;
+}
+
+.repeater1{
+	margin-bottom: 50px;
+	margin-left: 50px;
+	font-weight: 500;
+	font-size: 15px;
+}
