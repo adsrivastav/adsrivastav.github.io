@@ -141,3 +141,18 @@ $(window).on("load", function() {
 
 
 });
+
+
+
+function change()
+{  var letters = '0123456789ABCDEF';
+   var colo = '#';
+   for (var i = 0; i < 6; i++) {
+    colo+= letters[Math.floor(Math.random() * 16)];
+     }
+     var colos = colo;
+     localStorage.setItem("hii", colos);
+	 $(':root').css('--colors', colo);
+
+	
+}
