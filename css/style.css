@@ -353,20 +353,7 @@ form h3
 }
 
 
-@media only screen and (max-width:575px)
-{
-#portfolio{
 
-padding-right: 37px;
-padding-left: 37px;
-
-}
-.filter li {
-    display: inline-block;
-    padding: 2px;
-    font-size: 15px;
-    }
-}
 
 .filter a {
     color: #bdc3c7;
@@ -405,7 +392,27 @@ padding-left: 37px;
     text-align: center;
     width: 100%;
     }
+@media only screen and (max-width:575px)
+{
+#portfolio{
 
+padding-right: 34px;
+padding-left: 34px;
+
+}
+.filter li {
+    display: inline-block;
+    padding: 2px;
+    font-size: 15px;
+    }
+    .filter a
+    {
+      padding: 5px 9px;
+    }
+    .section .heading {
+    padding-bottom: 20px;
+}
+}
 .section .heading{
     text-align: center;
     padding-bottom: 40px;
