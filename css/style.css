@@ -262,7 +262,7 @@ h4
   visibility: hidden;
 }
 }
-@media only screen and (max-width:990px) and (min-width:770px)
+@media only screen and (max-width:990px) and (min-width:760px)
 {
   .all
   {
@@ -313,20 +313,27 @@ h4
     width: 40%;
     border: none;
     border-radius: 1rem;
-    padding: 1.5%;
-    background: #dc3545;
+    padding: 1.5%; 
+    margin-top: 10px;   
+    background-color: var(--colors);
     font-weight: 600;
     font-size: 1.4rem;
     color: #fff;
     cursor: pointer;
 }
+
+.contact-form .btnContact:hover {
+    background-color: #fff;
+    color: var(--colors);
+    box-shadow: 0 0 20px var(--colors);
+}
+
 .btnContactSubmit
 {
     width: 40%;
     border-radius: 1rem;
     padding: 1.5%;
     color: #fff;
-    background-color: #0062cc;
     border: none;
     cursor: pointer;
 }
