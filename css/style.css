@@ -413,6 +413,7 @@ padding-left: 34px;
     padding-bottom: 20px;
 }
 }
+
 .section .heading{
     text-align: center;
     padding-bottom: 40px;
@@ -703,6 +704,41 @@ span.float + div.label-container {
   transition: visibility 0s, opacity 0.5s ease;
 }
 
+@media only screen and (max-width:620px)
+{
+
+.label-container{
+  bottom:34px;
+  right:73px;
+}
+
+.label-text{
+  padding:7px;
+  border-radius:7px;
+  font-size: 16px;
+}
+
+.float{
+  width:50px;
+  height:50px;
+  bottom:25px;
+  right:25px;
+  color:#FFF;
+  border-radius:50px;
+  box-shadow: 0 0 12px black;
+}
+
+.my-float{
+  font-size:17px;
+  margin-top:13px;
+}
+.float i 
+{
+  font-size: 27px;
+}
+
+
+}
 span.float:hover + div.label-container{
   visibility: visible;
   opacity: 1;
@@ -712,6 +748,11 @@ span.float:hover + div.label-container{
   background-color: #fff;
   box-shadow: 0 0 15px #00CC99;
 }
+
+
+
+
+
 /*other pages*/
 .pages{
     background-color: var(--colors);
