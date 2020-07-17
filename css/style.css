@@ -249,7 +249,7 @@ h4
 {
   .all
   {
-        left: 44%;
+        left: 50%;
   }
   #stats
   {
@@ -259,7 +259,13 @@ h4
   }
 
 }
-
+@media only screen and (max-width:990px) and (min-width:770px)
+{
+  .all
+  {
+        left: 65%;
+  }
+}
 
 .text-center .subHeading {
   margin-top: 0px;
