@@ -151,7 +151,7 @@ function change()
     colo+= letters[Math.floor(Math.random() * 16)];
      }
      var colos = colo;
-     localStorage.setItem("hii", colos);
+     sessionStorage.setItem("hii", colos);
 	 $(':root').css('--colors', colo);
 
 	
